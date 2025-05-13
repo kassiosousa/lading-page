@@ -3,7 +3,7 @@ import Intro from './components/introduction'
 import About from './components/about'
 import Work from './components/work'
 import Contact from './components/contact'
-import WhatsAppButton from './components/WhatsAppButton'
+// import WhatsAppButton from './components/WhatsAppButton'
 import Footer from './components/footer'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <About />
         <Work />
         <Contact />
-        <WhatsAppButton />
+        {/* <WhatsAppButton /> */}
       </main>
       <Footer />
     </div>
