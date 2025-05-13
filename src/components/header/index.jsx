@@ -1,3 +1,5 @@
+import logo from '../../assets/logo.png';
+
 function Header() {
 
   const handleScroll = (id) => {
@@ -11,7 +13,7 @@ function Header() {
     <header className="fixed top-0 w-full bg-brand-primary bg-opacity-80 backdrop-blur-md shadow-md z-50">
       <nav className="max-w-4xl mx-auto px-2 py-2 flex justify-between items-center">
         <span className="text-xl font-bold">
-          <img src="../../src/assets/logo.png" className="w-8" alt="Logo" />
+          <img src={logo} className="w-8" alt="Logo" />
         </span>
         <ul className="flex space-x-6 text-sm sm:text-base">
           <li><button onClick={() => handleScroll('home')} className="hover:text-teal-400 transition">Início</button></li>

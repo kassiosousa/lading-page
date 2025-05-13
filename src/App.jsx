@@ -3,7 +3,7 @@ import Intro from './components/introduction'
 import About from './components/about'
 import Work from './components/work'
 import Contact from './components/contact'
-import WhatsAppButton from './components/whatsAppButton'
+import WhatsAppButton from './components/WhatsAppButton'
 import Footer from './components/footer'
 
 function App() {

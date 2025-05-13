@@ -1,7 +1,9 @@
+import rogerio from '../../assets/rogerio.png';
+import karina from '../../assets/karina.png';
 
 const partners = [
-  { picture: <img src="../../src/assets/rogerio.png" />, title: 'Rogério Belfort', desc: 'Engenheiro há quase 30 anos, mais de 11 anos de docência, com uma vasta experiência profissional em obras residenciais, comerciais e industriais. Especialista em diversas áreas desenvolvendo projetos e executando obras Brasil a fora.' },
-  { picture: <img src="../../src/assets/karina.png" />, title: 'Karina Freire', desc: 'Arquiteta na Belfort Engenharia Ltda. Arquiteta na Belfort Engenharia Ltda.' },
+  { picture: <img src={rogerio} />, title: 'Rogério Belfort', desc: 'Engenheiro há quase 30 anos, mais de 11 anos de docência, com uma vasta experiência profissional em obras residenciais, comerciais e industriais. Especialista em diversas áreas desenvolvendo projetos e executando obras Brasil a fora.' },
+  { picture: <img src={karina} />, title: 'Karina Freire', desc: 'Arquiteta na Belfort Engenharia Ltda. Arquiteta na Belfort Engenharia Ltda.' },
 ]
 
 function About() {
